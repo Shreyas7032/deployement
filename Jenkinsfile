@@ -7,7 +7,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token_shreyas',
-                    url: 'https://github.com/shreyas/S_Kart2.git'
+                    url: 'https://github.com/Shreyas7032/deployement.git'
             }
         }
 
@@ -36,4 +36,5 @@ pipeline {
         }
     }
 }
+
 
